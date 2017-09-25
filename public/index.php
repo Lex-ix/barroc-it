@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/main.css">
-    <title>Document</title>
+    <title>Barroc IT</title>
 </head>
 <body>
     <div class="banner">
@@ -18,10 +18,10 @@
     <nav class="background">
         <div class="container">
             <ul class="right">
-                <li><a href="">Home</a></li>
+                <li><a href="">yytduyj</a></li>
                 <li><a href="">fdasfad</a></li>
-                <li><a href="">greagra</a></li>
-                <li><a href="">oagekyusxj</a></li>
+                <li><a href="login.php">Login</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
             </ul>
         </div>
     </nav>
@@ -105,7 +105,7 @@
                 </table>
             </div>
         </section>
-        <footer class="center background">
+        <footer class="tac background">
             <h1 class="subhead">SOFTWARE FOR REAL</h1>
             <p>© BARROC IT | 2017</p>
         </footer>

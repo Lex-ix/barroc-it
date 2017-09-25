@@ -36,6 +36,14 @@
     padding-bottom: 200px;
 }
 
+.login {
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
 h1, h2, h3 {
     font-family: 'Helvetica-Normal';
 
@@ -66,11 +74,18 @@ h4 {
     font-size: 18px;
 }
 
-p {
+label, p {
     font-family: Arial;
     font-size: 15px;
     margin-bottom: 10px;
     line-height: 1.42857143;
+}
+
+input {
+    background: rgba(0,0,0, 0);
+
+    border-radius: 1px;
+    border-color: rgba(0,0,0, 0.2);
 }
 
 p:last-of-type {
@@ -115,18 +130,34 @@ section {
     padding-bottom: 25px;
 }
 
-.center {
+.tac {
     text-align: center;
+}
+
+.center {
+    height: 200px;
+    width: 400px;
+    background: rgba(0,0,0,0.5);
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+
+    border-radius: 7.45px;
 }
 
 table {
     font-family: 'Helvetica-Normal';
+    border-collapse: collapse;
 }
 
 th {
     font-size: 20px;
     padding-right: 25px;
     padding-left: 25px;
+    padding-bottom: 10px;
 }
 
 td {
@@ -139,10 +170,11 @@ tr:nth-child(even) {
 
 ul {
      list-style: none;
+    font-family: 'Helvetica-Normal';
 }
 
 li {
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 15px;
 
     padding-left: 10px;
@@ -158,5 +190,35 @@ a {
 
 li:hover {
     background: #fff;
+}
+
+.active {
+    background: #fff;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background: rgba(255,255,255, 0.2);
+}
+
+/*
+    LOGIN
+*/
+
+.login .title {
+    padding-top: 140px;
+}
+
+.login form {
+    text-align: center;
+}
+
+.login form div {
+    margin-bottom: 10px;
+}
+
+.login .submit {
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
