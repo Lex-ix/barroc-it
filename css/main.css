@@ -1,0 +1,162 @@
+/*
+    ADDING FONT FACES
+*/
+
+@font-face {
+    font-family: 'Helvetica-Normal';
+    src: url('../font/Helvetica-Normal.eot');
+    src: url('../font/Helvetica-Normal.eot?#iefix') format('embedded-opentype'),
+    url('../font/Helvetica-Normal.woff') format('woff'),
+    url('../font/Helvetica-Normal.ttf') format('truetype'),
+    url('../font/Helvetica-Normal.svg#Helvetica-Normal') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+    GLOBAL STYLING
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.banner {
+    background-image: url('../images/background.jpg');
+    background-position: center;
+
+    padding-top:    180px;
+    padding-bottom: 200px;
+}
+
+h1, h2, h3 {
+    font-family: 'Helvetica-Normal';
+
+    padding-top:     20px;
+    padding-bottom:  10px;
+}
+
+h4, h5, h6 {
+    font-family: 'Helvetica-Normal';
+
+    margin-top:     10px;
+    margin-bottom:  10px;
+}
+
+h1 {
+    color: #808080;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 15px;
+    margin-bottom: 10px;
+    line-height: 1.42857143;
+}
+
+p:last-of-type {
+    margin: 0;
+}
+
+.title {
+    font-size: 63px;
+    text-shadow: 2px 2px 3px black;
+}
+
+.subhead {
+    color: #CFC1B5;
+    text-shadow: 1px 1px 1px black;
+}
+
+.bold {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.background {
+    background: #f2f2f2;
+}
+
+.besides {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.right {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.spacing {
+    margin-right: 30px;
+}
+
+section {
+    padding-bottom: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+table {
+    font-family: 'Helvetica-Normal';
+}
+
+th {
+    font-size: 20px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+ul {
+     list-style: none;
+}
+
+li {
+    padding-top: 10px;
+    padding-bottom: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+
+}
+
+li:hover {
+    background: #fff;
+}
+
