@@ -201,6 +201,10 @@ li:hover {
     background: rgba(255,255,255, 0.2);
 }
 
+footer {
+    padding-bottom: 15px;
+}
+
 /*
     LOGIN
 */
