@@ -137,7 +137,7 @@ section {
 .center {
     height: 200px;
     width: 400px;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0, 0.5);
 
     position: fixed;
     top: 50%;
@@ -168,32 +168,9 @@ tr:nth-child(even) {
     background: #f2f2f2;
 }
 
-ul {
+nav {
      list-style: none;
     font-family: 'Helvetica-Normal';
-}
-
-li {
-    padding-top: 15px;
-    padding-bottom: 15px;
-
-    padding-left: 10px;
-    padding-right: 10px;
-}
-
-a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #000;
-
-}
-
-li:hover {
-    background: #fff;
-}
-
-.active {
-    background: #fff;
 }
 
 .submit:hover {
@@ -203,6 +180,24 @@ li:hover {
 
 footer {
     padding-bottom: 15px;
+}
+
+.help {
+    position: absolute;
+
+    right: 15px;
+    bottom: 10px;
+}
+
+a {
+    font-family: 'Helvetica-Normal';
+
+    text-decoration: none;
+    color: #222;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 /*
@@ -224,5 +219,27 @@ footer {
 .login .submit {
     padding: 5px 10px;
     border-radius: 5px;
+}
+
+/*
+    NAV
+*/
+
+nav a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #000;
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+nav a:hover, nav .active {
+    background: #fff;
+
+    text-decoration: none;
 }
 

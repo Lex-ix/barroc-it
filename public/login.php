@@ -12,19 +12,22 @@
     <h1 class="tac title">Barroc IT</h1>
     <div class="center">
         <h2 class="tac subhead">Login</h2>
-    <form action="">
-        <div>
-            <label class="subhead" for="username">Username:</label>
-            <input type="text" id="username">
+        <form action="">
+            <div>
+                <label class="subhead" for="username">Username:</label>
+                <input type="text" id="username">
+            </div>
+            <div>
+                <label class="subhead" for="password">Password:</label>
+                <input type="text" id="password">
+            </div>
+            <div>
+                <input class="subhead submit" type="submit">
+            </div>
+        </form>
+        <div class="help">
+            <a href="help_EN.php" target="_blank">help</a>
         </div>
-        <div>
-            <label class="subhead" for="password">Password:</label>
-            <input type="text" id="password">
-        </div>
-        <div>
-            <input class="subhead submit" type="submit">
-        </div>
-    </form>
     </div>
 
 </body>
