@@ -58,6 +58,9 @@
                 <label for="comment">Opmerking:</label>
                 <input type="text" id="comment" placeholder="Voer hier uw opmerking naam in.">
             </div>
+            <div class="form-group">
+                <input class="submit" type="submit" value="toevoegen">
+            </div>
         </form>
     </div>
 </section>
