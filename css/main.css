@@ -74,10 +74,15 @@ h4 {
     font-size: 18px;
 }
 
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
 label, p {
     font-family: Arial;
     font-size: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     line-height: 1.42857143;
 }
 
@@ -86,6 +91,17 @@ input {
 
     border-radius: 1px;
     border-color: rgba(0,0,0, 0.2);
+
+    margin-bottom: 10px;
+
+    padding: 5px;
+
+    width: 350px;
+}
+
+.submit {
+    margin: 5px;
+    padding: 5px;
 }
 
 p:last-of-type {
@@ -135,14 +151,14 @@ section {
 }
 
 .center {
-    height: 200px;
+    height: 300px;
     width: 400px;
     background: rgba(0,0,0, 0.5);
 
     position: fixed;
     top: 50%;
     left: 50%;
-    margin-top: -100px;
+    margin-top: -150px;
     margin-left: -200px;
 
     border-radius: 7.45px;
@@ -169,7 +185,7 @@ tr:nth-child(even) {
 }
 
 nav {
-     list-style: none;
+    list-style: none;
     font-family: 'Helvetica-Normal';
 }
 
@@ -243,3 +259,10 @@ nav a:hover, nav .active {
     text-decoration: none;
 }
 
+/*===================FINANCE================*/
+
+.finance td {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
