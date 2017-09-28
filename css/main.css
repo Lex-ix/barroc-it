@@ -169,7 +169,7 @@ tr:nth-child(even) {
 }
 
 nav {
-     list-style: none;
+    list-style: none;
     font-family: 'Helvetica-Normal';
 }
 
@@ -243,3 +243,10 @@ nav a:hover, nav .active {
     text-decoration: none;
 }
 
+/*===================FINANCE================*/
+
+.finance td {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
